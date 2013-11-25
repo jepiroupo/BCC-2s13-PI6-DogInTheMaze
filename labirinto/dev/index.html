@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <title>Timeline</title>
+
+    <link rel="stylesheet" type="text/css" href="css/labirinto.css"/>
+    <script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/labirinto.js"></script>
+
+    <script language="javascript">
+        $(document).ready(function()
+        {
+            $.ajax({
+                type: "GET",
+                url: "data/labirinto.xml",
+                dataType: "xml",
+                success: dados.labirinto
+            });
+        });      
+    </script>
+
+</head>
+
+<body class="tamanho">
+    <div class="tamanho">
+    	<ul id="lista" class="tamanho">
+    	</ul>
+    </div>
+    <div>
+        <button class="botao" onclick="gerarXML()">Gerar XML</button>
+    </div>
+
+</body>
+</html>

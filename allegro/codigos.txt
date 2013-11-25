@@ -1,0 +1,15 @@
+0 - caminho
+1 - parede
+2 - vermelho
+3 - azul
+4 - verde
+5 - amarelo
+6 - porta aberta vermelho
+7 - porta aberta azul
+8 - porta aberta verde
+9 - porta aberta amarelo
+10 - dog
+11 - chegada vermelho
+12 - chegada azul
+13 - chegada verde
+14 - chegada amarelo

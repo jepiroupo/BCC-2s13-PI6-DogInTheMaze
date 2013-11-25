@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------------
+    Tamanho do Labirinto
+*/
+
+.tamanho{
+    padding: 0;
+    margin: 0;
+    width:1120px;
+    height:704px;
+    position: relative;
+}
+
+ul#lista {
+    padding: 0;
+    margin: 0;
+}
+
+ul#lista li{
+    float:left;
+    list-style: none;
+}
+
+.caminho{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: 0px 0px;
+}
+
+.parede{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -32px 0px;
+}
+
+.vermelho{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -64px 0px;
+}
+
+.azul{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -96px 0px;
+}
+
+.verde{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -128px 0px;
+}
+
+.amarelo{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -160px 0px;
+}
+
+.vermelho_aberto{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -192px 0px;
+}
+
+.azul_aberto{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -224px 0px;
+}
+
+.verde_aberto{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -256px 0px;
+}
+
+.amarelo_aberto{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -288px 0px;
+}
+
+.cachorro{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -320px 0px;
+}
+
+.vermelho_chegada{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -352px 0px;
+}
+
+.azul_chegada{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -384px 0px;
+}
+
+.verde_chegada{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -416px 0px;
+}
+
+.amarelo_chegada{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    background-position: -448px 0px;
+}
+
+.botao{
+    position: relative;
+    float: left;
+}
